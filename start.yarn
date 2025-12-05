@@ -1,0 +1,2006 @@
+// lastSavedUnix: 2025-11-29T12:42:34.417Z
+// variables:
+//   - key: Perception
+//     value: 5
+//   - key: charName
+//     value: 亓官渡
+
+title: Start
+tags: 
+position: 120,-1560
+colorID: 6
+---
+//初次开始
+
+//首次开头
+
+
+
+<<preload "Image/player/player_blink">>
+
+<<background "Image/background/background.png", true>>
+
+<<BGM "Music/593688__szegvari__dark-thriller-atmo-amb.wav">>
+…
+……
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+
+你眨了眨眼。
+仿佛只是走在路上，因为一个闪神而停下了脚步，在漫长的、空白的时间之后，刚刚拽回思绪。
+
+<<noFrame>>
+
+<<jump Begining>>
+===
+
+title: Option_One_1
+tags: 
+position: -120,-680
+colorID: 0
+---
+//不安者
+
+//负面 
+
+//强烈的不安
+
+<<background "Image/background/background.png", true>>
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+<<stopBGM>>
+
+<<SE "Music/612639__newlocknew__heart-beat-2strong-poundingblood-flows-in-the-veins6lrs.wav">>
+
+<<BGM "Music/BGM/Monotonous Pulse.mp3">>
+
+……这种毫无缘由的位移，这种记忆的真空，比任何有形的威胁都更令人恐惧。
+心脏像是被一只冰冷的手攥住，开始失控地加速跳动。
+
+<<background "Image/background/background.png", false>>
+
+呼吸变得急促，视线不安地扫视着周遭的黑暗，仿佛那里面随时会扑出什么。
+身体先于意识进入了警戒状态，一种想要立刻逃离此地的本能冲动在四肢百骸间尖叫。
+
+<<noFrame>>
+
+<<background "Image/background/background.png", true>>
+
+<<SE "Music/723795__lorimortimer__abyss.wav">>
+
+你下意识地后退了半步，脚跟撞在桥面上，发出空洞的回响。
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+死寂之中，呼吸声粗重得刺耳。
+胸腔剧痛，如有刀刃在内里搅动。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+想呼喊，喉咙却被恐惧堵死，化作一阵无声的痉挛。
+肺部疯狂索取着空气，却像被困在真空里
+每一次挣扎，都只是将窒息感掠夺得更深。
+就在恐惧攫住你心脏的刹那
+
+<<noFrame>>
+
+<<background "Image/background/background.png", false>>
+
+<<SE "Music/464949__giddster__monster-wheezing-3.wav">>
+
+脚下的桥面突然传来一阵极其轻微而深沉的蠕动
+——如同沉睡巨兽的脉搏。
+
+<<background "Image/background/background.png", true>>
+
+这不是桥，是活物！
+攻击就要来了！
+
+[i]动起来，快离开这里！[/i]
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+大脑在疯狂地发出指令，身体却被钉死在原地，如同被浇铸在水泥中。
+周遭的寂静并非无声，而是由无数尖啸的负能量组成，它们钻进耳膜，化作擂鼓般的心跳。
+胸腔里的不是心脏，是一匹失控的野马，正用铁蹄践踏着你的肋骨。
+每一次呼吸都变得无比奢侈，空气仿佛变成了沉重的液体，无论多么努力，都无法满足肺部贪婪的索取。
+
+<<noFrame>>
+
+[i]要窒息了…[/i]
+[i]我会死在这里！[/i]
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+这些念头像藤蔓一样缠绕住你的意识。
+最可怕的是喉咙里那个看不见的塞子，它不但堵住了声音，似乎连求生的希望也一并堵死了。
+你尝到了恐惧的味道
+——是金属的腥锈味。
+
+<<noFrame>>
+
+<<background "Image/background/background_black.png", true>>
+
+世界在你眼前开始融化、旋转，你正坠入一个由自身恐惧编织的、无声的漩涡中心。
+你感到自己的灵魂正被一种沉重的麻痹感封印。
+
+<<background "Image/background/background_red.png", true>>
+
+这感觉从脚底蔓延而上，像急速凝固的水泥，所到之处，剥夺了一切行动的可能。
+
+当麻痹感淹没头顶，你与这完全陌生的外界的最后连接也被斩断。
+
+<<background "Image/background/background.png", false>>
+
+骤然间，大脑不再处理信息，只是被动地接收着由恐惧生成的、无意义的乱码。
+
+<<background "Image/background/background.png", true>>
+
+你像一个被困在自己身体雕像里的囚徒，能感受到一切，却无法让石化的眼睑眨动一下，只能任由脑中的尖叫在绝对的寂静中回荡。
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+不知过了多久，你的意识像一丝微弱的信号，突然接回了濒临宕机的身体。
+最先恢复的是对“窒息”和“剧痛”的恐惧，那份感觉依然新鲜滚烫。
+
+<<noFrame>>
+
+<<background "Image/background/background.png", false>>
+
+紧接着，一股陌生的、仿佛不属于你的力气，如同电流般猛地灌入僵死的双腿
+——这不是舒适的复苏，而是被恐惧本身赋予的、一种机械性的驱动。
+你没有思考，甚至没有明确的目标。
+就在意识与肉体连接的一刹那，你的身体已经擅自做出了决定——跑！
+
+<<background "Image/background/background.png", true>>
+
+仿佛身后是即将合拢的深渊巨口。
+你猛地一个转身，动作因急促而近乎踉跄，脚跟在地上擦出刺耳的一声。
+然后，你像一枚被恐惧射出的子弹，朝着来的方向……
+或者说，朝着任何能离开此地的方向，狂奔而去。
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+风在耳边尖锐地嘶鸣，盖过了自己更加粗重的喘息。
+
+<<background "Image/background/background_black.png", true>>
+
+眼前的景物疯狂地向后飞掠，模糊成一片扭曲的色块。
+你感觉不到双腿的奔跑，只感到一种失重般的逃离，仿佛慢下一秒，就会被那片无形的黑暗再次吞噬。
+这不是奔跑，是一次从自身崩溃现场的成功越狱。
+
+<<background "Image/background/background_red.png", true>>
+
+你的大脑一片空白，唯一的指令来自每一个仍在颤栗的细胞：
+远离，远离，远离！
+你朝着身后的方向开始狂奔……
+
+<<background "Image/background/background_black.png", true>>
+
+<<SE "Music/429018__iut_paris8__warembourg_sabrina_2017_2018_rainshower.wav">>
+
+桥下的河水沉在浓郁的阴影里，颜色黑得像化不开的浓墨，又或是深渊本身。
+它毫无波澜地流淌着
+黏稠而沉默
+仿佛一道沉睡的脉搏
+一切动静都被那厚重的黑暗吸收殆尽。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+这些却没办法分散你任何的不安
+大脑无法再思考任何东西
+
+<<noFrame>>
+
+只有重复性的执行着向着那个被你判断为来时的方向奔跑。
+直到筋疲力尽，无法继续移动，双腿麻木到失去知觉
+你才意识到，向着这一头奔跑是没有结果的，似乎只是在重复的穿过同一片的迷雾，一直循环于起点。
+
+<<background "Image/background/background_black.png", false>>
+
+毋庸置疑，你必须换个方向前行。
+
+<<stopBGM>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+你瘫坐在冰冷的地面上，双腿如同不属于自己，肺部火辣辣地痛。
+先前那场源于自身、歇斯底里的狂奔，除了耗尽你最后一丝力气，只印证了一个令人绝望的事实——
+此路不通。
+恐惧的潮水暂时退去，留下的是精疲力竭的清醒。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+刚刚只是错觉，这里并没有任何活物，而你，现在为了前行，必须换个方向。
+你撑着颤抖的双膝，强迫自己站起来，转身面向那原本被你视为“未知”的前方。
+
+<<noFrame>>
+
+每一步都踩在虚脱的边缘，但你咬着牙，逼迫自己前行。
+
+<<jump Option_One_1_>>
+===
+
+title: Option_One_2
+tags: 
+position: 120,-680
+colorID: 0
+---
+//困惑者
+
+//中立 
+
+//是不是睡迷糊了？
+
+<<background "Image/background/background.png", true>>
+
+<<BGM "Music/159537__setuniman__absurd-0q_27mi.wav">>
+
+……你用力掐了一下自己的手臂，清晰的痛感传来，否定了这是梦境的可能。
+但……
+如果不是梦，又是什么？
+你皱起眉，试图在空白的记忆里搜寻任何线索，却一无所获。
+
+<<frame "Image/player/player_stand", 1.5, -800, 200, 1.3, false>>
+
+这种离奇的状况让你感到更多的是困惑而非惊恐。
+
+<<background "Image/background/background.png", false>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+你深吸一口气，强迫自己冷静下来，开始像分析一个谜题一样观察四周：
+桥的结构
+黑暗的质感
+空气的味道……
+试图用逻辑来理解眼前的超现实处境。
+
+<<background "Image/background/background.png", true>>
+
+<<noFrame>>
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<SE "Music/429018__iut_paris8__warembourg_sabrina_2017_2018_rainshower.wav">>
+
+这里似乎与现实世界的差异很大，桥下的河水如同被按下暂停键一般，没有流动，或是说以肉眼不可见的速度极其缓慢地流动。
+仰望，上方的黑暗却像是卡通画册中的黑夜，给你一种像是大人在逗小孩玩的感觉。
+环顾一番，你得出了一个显而易见的结论——
+
+<<noFrame>>
+
+这里是你的梦境
+
+<<BGM "Music/742885__xkeril__airy-pitched-background.wav">>
+
+<<background "Image/background/background_black.png", true>>
+
+不知道现实中的你什么时候才会醒，但是目前看来，这是一个清醒梦，或者说是清明梦，你可以按照自己的想法行动。
+驻在原地思考了一会儿，毫无疑问，呆在原地不仅没什么乐趣，而且改变不了任何现状，你应该前进了。
+——至于为什么不是后退？
+这个答案你早已清楚
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+——像这种如同你平常没事了之后可能会玩的平台跳跃游戏一般的场景
+往后退，要么是死路一条，要么是循环回到这里，只有部分会存在唯一正解是往回走。
+而这里是你的梦
+
+<<background "Image/background/background.png", false>>
+
+你知道，就算是无意识中，你也不会将后退作为正确的选项。
+无论是任何事情，你都不会去考虑这种相当于逃避的选择
+唯有前进，是你中意的行为。
+
+不过你还是在思考着往回走的可行性，在一番思索后你决定还是调头看一眼往回走会怎么样。
+
+<<noFrame>>
+
+一步步朝着迷雾中走去，直到遁入其中再穿过迷雾出来，面前的场景似乎仍旧是原地。
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<background "Image/background/background.png", true>>
+
+于是你开始朝着睁眼后正对的方向前行，一边在疼痛欲裂的脑袋中搜寻着残存的回忆，一边观察着前行，意外的是那些迷雾竟会自动散开。
+看来确实是单行的解法，只有朝着这个方向才能推进。
+证实了“后退即是循环”的猜想后，你心中反而安定了几分。
+这符合梦境，或者说是此空间，的基本逻辑——线性推进。
+
+<<noFrame>>
+
+你揉了揉依旧隐隐作痛的太阳穴，开始朝着正确的方向，也就是最初面对的前方行进。
+迷雾如识趣的幕布般为你散开，这更坚定了你的判断。
+
+<<background "Image/background/background2.0.png", true>>
+
+行走在这片诡异的宁静中，你并未放松警惕，依旧仔细地观察着一切，试图从细节中拼凑出这个“梦境”的规则与目的。
+
+<<jump Option_One_2_>>
+===
+
+title: Option_One_3
+tags: 
+position: 360,-680
+colorID: 0
+---
+//好奇者
+
+//正面 
+
+//充满了好奇心！
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<background "Image/background/background.png", true>>
+
+<<BGM "Music/BGM/Shadows Whisper.mp3">>
+
+……最初的茫然迅速被一种奇异的好奇心所取代。
+这里是哪儿？
+我怎么会在这儿？
+这种打破常规的经历，像一把钥匙，瞬间打开了你内心某种被日常琐碎所禁锢的探索欲。
+
+<<background "Image/background/background.png", false>>
+
+你非但没有害怕，反而向前走了几步，来到桥边，伸手试图触摸那看似无边无际的黑暗。
+指尖传来的是一种非冷非热、如同触摸致密流体的阻滞感。
+未知，在此刻显得如此迷人。
+
+<<noFrame>>
+
+几乎是下意识的，你没有考虑过回头，径直往前走。
+
+<<background "Image/background/background.png", true>>
+
+笼罩于面前桥面的迷雾仿佛具有自我意识，在你靠近的时候自行散去。
+脚下的桥面随着你的步伐微微震颤，发出细微的木质呻吟。
+雾气退散得恰到好处，总在你迈出下一步前，为你让出丈许可见的范围。
+
+<<background "Image/background/background.png", false>>
+
+这恰到好处的引导，反而让你心底那丝好奇愈发灼热。
+
+你加快了脚步，几乎是跑了起来。
+雾气退散的速度也随之加快，仿佛一场无声的引诱。
+
+<<background "Image/background/background_gray.png", false>>
+
+风中开始夹杂着别的东西——
+不是声音，更像是一缕缕细微的思绪，冰凉地贴上你的皮肤，钻进你的脑海。
+
+<<background "Image/background/background_gray.png", true>>
+
+[i]……不要回头……[/i]
+[i]……不……[/i]
+[i]……这边……[/i]
+  
+这些碎片并非听到，而是直接在你意识里浮现，带着某种焦灼与警告的意味。
+你猛地停住，试图捕捉得更清晰些，它们却又潮水般退去，只剩下空洞的风声。
+就在这停顿的刹那，你眼角的余光捕捉到了什么。
+
+在右侧原本浓得化不开的雾墙里，一个模糊的轮廓一闪而过。
+像人，又似乎过于纤细，动作带着一种非人的飘忽。它没有靠近，也没有远离，只是在你视野的边界维持着存在。
+有东西。
+除了你之外，确实有别的“东西”在这里。
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+你的心跳漏了一拍，说不清是恐惧还是兴奋。
+你转向那个方向，试探性地迈出一步。雾气翻滚着，那轮廓似乎清晰了一瞬
+——你看到一抹苍白的颜色，像是褪了色的衣角，随即又隐没下去。
+它是在引导你？
+还是在观察你？
+
+<<noFrame>>
+
+你不再奔跑，改为一种谨慎的、一步步靠近的姿态。
+脚下的桥板似乎变得更软了，踩上去有种不真实的弹性。
+那碎片般的思绪再次试图侵入，这一次，你隐约感觉到一种……好奇。
+
+<<background "Image/background/background_gray.png", false>>
+
+并非来自你，而是来自雾中，来自那个轮廓，来自这座桥本身。
+它们，也在好奇着你。
+前方的雾气这次没有完全散开，而是退至一个特定的界限，勾勒出一扇门的模糊形状。
+那并非真实的门，更像是雾气自身凝结而成的轮廓，边缘还在微微流动。
+
+而那个苍白的、纤细的轮廓，就静立在“门”的旁边，像是一个沉默的引路者。
+它没有面孔，没有具体的形态，但你能明确地感觉到它的“注视”落在了你的身上。
+是穿过这扇雾之门，直面那未知的存在？还是……
+
+你回头望去，来时路早已被浓雾吞噬，一片混沌。回头，已无可能。
+
+抉择的时刻，到了。
+而那萦绕不散的碎片低语，此刻汇聚成一丝冰冷的警兆，轻轻刺入你的脑海。
+这警兆并非针对前方的门，也非旁边的存在，而是源于一个你刚刚意识到的问题——
+这牵引你的，究竟是这未知空间给予的指引，还是某个意识的……诱捕？
+
+<<background "Image/background/background2.0.png", false>>
+
+等你回过神来，浓雾已经散去，你仍旧站在那座桥上，不过周围似乎有了些许变化，不知是错觉还是内心影响造成的，总之，暂时你将这个问题抛于脑后。
+
+那扇由雾气凝结的“门”与旁边苍白的引路者，如同海市蜃楼般消散了，将你重新抛回孤身一人的桥上。
+
+<<background "Image/background/background2.0.png", true>>
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+刚才的经历虽短暂，却在你心中激起了巨大的涟漪。
+有东西在，除了你之外，确实有别的“存在”在这里。
+它们似乎想引导你，但那方式却充满了暧昧与不确定。
+那份冰冷的好奇心，如同附骨之疽，让你对这片空间的秘密更加渴望。
+
+<<noFrame>>
+
+你继续前行，心中的探索欲未曾消减，反而因之前的遭遇变得更加敏锐。
+你不再满足于被动的观察，开始主动搜寻任何可能隐藏着信息或通道的“异常点”
+
+<<jump Option_One_3_>>
+===
+
+title: Option_Two
+tags: 
+position: 120,-120
+colorID: 8
+---
+//选项二
+
+前方桥面上有一摊看起来很明显的污水……
+[b]你选择？[/b]
+
+-> 无视，绕道而行
+    <<jump Option_Two_1>>
+-> 蹲在一旁啥也不干就盯着
+		<<set $Perception -= 1>>
+		<<jump Option_Two_2>>
+-> 好怪噢，伸手碰一下
+    <<set $Perception += 1>>
+    <<jump Option_Two_3>>
+===
+
+title: Option_One
+tags: 
+position: 120,-1000
+colorID: 8
+---
+//选项一
+
+<<set $Perception = 5>>
+<<background "Image/background/background_black.png", true>>
+
+
+[b]此刻，你脑中的想法是？[/b]
+
+-> 强烈的不安
+    <<set $Perception -= 1>>
+    <<background "Image/background/background_black.png", false>>
+    <<jump Option_One_1>>
+-> 是不是睡迷糊了？
+		<<background "Image/background/background_black.png", false>>
+		<<jump Option_One_2>>
+-> 充满了好奇心！
+    <<set $Perception += 1>>
+    <<background "Image/background/background_black.png", false>>
+    <<jump Option_One_3>>
+===
+
+title: Option_Two_1
+tags: 
+position: -120,200
+colorID: 0
+---
+//困惑者
+
+//中立 
+
+//无视，绕道而行
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<BGM "Music/636989__rorschakk__rorschakk-130bpm-dark-ambient-sci-fi-suspenseful-beat-loop.wav">>
+
+……你的目光在那摊污水上停留了不到一秒。
+它漆黑、粘稠，与灰败的桥面形成刺眼的对比，带着一种刻意为之的突兀感，仿佛一个放置在舞台中央的拙劣道具。
+它似乎在无声地散发着某种引力，诱惑着过客去探究，去触碰，去坠入其中蕴含的未知
+
+<<noFrame>>
+
+——但你只是平静地移开了视线。
+
+经历了桥上周而复始的循环，你早已不再是那个会被表象轻易蛊惑的存在。
+这摊污水，无论它是什么——
+是另一个陷阱，一段记忆的显化，亦或仅仅是一摊污水
+——都与你的目标无关。
+你的目标只有一个：
+前行。
+
+<<background "Image/background/background2.5.png", true>>
+
+你没有加快脚步，也没有刻意放慢，只是如同绕过一块再普通不过的石头，脚步没有丝毫迟疑地，从它旁边流畅地走了过去。
+衣角带起的微风吹皱了近旁死寂的空气，却未能让那摊污水泛起半点涟漪。
+你将背影留给了它，没有丝毫回头确认的念头。
+
+在你踏出那一步之后，某种无形的张力仿佛被悄然切断。
+你能感觉到，那凝聚在背部的、如同被注视般的粘稠感，正在迅速消散。
+
+你继续向前。
+
+而那块曾试图宣告自身存在的污水，连同它所承载的一切暗示与可能性，就这样被你干脆利落地遗弃在身后，并且，再也没有出现在你的路途上。
+
+它未能成为你故事的一个章节，仅仅是一个被略过的、无足轻重的标点。
+
+你毫不犹豫地绕开了那摊不祥的污水，将其彻底抛诸脑后。
+你的步伐稳定，内心没有丝毫涟漪，仿佛只是随手拂去了一粒尘埃。
+这种基于强大意志的“无视”，似乎被这片空间所认可。
+
+<<jump Option_Two_1_>>
+===
+
+title: Option_Two_2
+tags: 
+position: 120,200
+colorID: 0
+---
+//不安者
+
+//负面 
+
+//蹲在一旁啥也不干就盯着
+
+<<background "Image/background/background2.5.png", false>>
+
+<<BGM "Music/742885__xkeril__airy-pitched-background.wav">>
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+……当脚尖触到桥面坚硬的实体，当视野里突兀地映入那摊污水时，感官竟有种被刺痛的感觉。
+
+<<noFrame>>
+
+它就在桥中央，异常的清晰，与周遭灰败的、被雾气模糊的环境格格不入。
+那不是寻常的积水，它过于漆黑，过于完整……
+像一面被刻意泼洒、打磨过的黑曜石镜面，静静地躺在那里，等待着你的到来。
+一种莫名的引力，从那双漆黑的、毫无波澜的“镜面”中散发出来。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+理性在脑中拉响细微的警报，但双脚却像被无形的丝线牵引，不由自主地向前挪动，直至停在它的边缘。
+
+<<noFrame>>
+
+<<background "Image/background/background2.5.png", true>>
+
+你低下了头，俯身看向那幽深的水面。
+起初，无法看到自己的倒影，甚至是天空的样子也无法视见。
+
+<<background "Image/background/background_black.png", true>>
+
+但渐渐地，那摊污水仿佛拥有了独立的生命，用一双更深邃、更空洞的眼睛，回望着你。
+水面之下，不再是桥面的粗糙纹理，而是旋转的、粘稠的黑暗。
+
+<<SE "MUsic/429018__iut_paris8__warembourg_sabrina_2017_2018_rainshower.wav">>
+
+那黑暗在流动，缓慢地，如同拥有生命的原油，又像是无数细碎的、低语的阴影在深处汇聚。
+
+<<SE "Music/464949__giddster__monster-wheezing-3.wav">>
+
+仿佛能听到一种无声的召唤，一种来自万物源初的、混沌的脉动，与你的越来越响的心跳声逐渐重合。
+  
+思维开始变得粘滞，像陷入了一大团温热的沥青。
+
+<<background "Image/background/background2.5.png", false>>
+
+现实世界的边界——
+
+<<background "Image/background/background2.5.png", true>>
+
+桥的栏杆、潮湿的空气、脚下的触感
+
+<<background "Image/background/background_black.png", true>>
+
+——正迅速褪色、剥离。
+
+<<background "Image/background/background_gray.png", true>>
+
+那摊污水不再是你观察的客体，它仿佛立了起来，像一个无声张开的巨大入口，要将你的存在吸纳进去。
+  
+[i]不……[/i]
+  
+<<background "Image/background/background_black.png", true>>
+
+一个微弱的音节尚未完全成形，你猛的失去了所有知觉。
+那不是昏厥的黑暗，而是坠落。
+意识像一颗被从弹弓上射出的石子，脱离了物质的躯壳，直直地堕入那片无尽的、粘稠的漆黑之中。
+没有速度，没有方向，只有一种不断下沉、不断被同化的永恒瞬间。
+
+桥、迷雾、乃至“自我”的概念，都在这一刻，被那潭深不见底的污水，彻底吞没。
+
+<<background "Image/background/background2.5.png", true>>
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+当你从那片吞噬一切的漆黑中挣脱，意识再度回归时，发现自己仍旧站在桥上，仿佛那漫长的坠落只是一个短暂的眩晕。
+
+<<noFrame>>
+
+但你知道，那不是幻觉。
+你的灵魂仿佛被那潭污水洗涤过，留下了一种难以言喻的疲惫与敏感。
+你感到自己与这片空间的联系似乎变得更加紧密，也更加脆弱。
+你定了定神，继续前行。
+
+
+<<jump Option_Two_2_>>
+===
+
+title: Option_Two_3
+tags: 
+position: 360,200
+colorID: 0
+---
+//好奇者
+
+//正面 
+
+//好怪噢，伸手碰一下
+
+<<background "Image/background/background2.5.png", false>>
+
+……你的指尖，距离那摊粘稠的污水仅剩一寸。
+就在这刹那，异变陡生。
+
+<<BGM "Music/151331__rap2h__frotti.wav">>
+
+<<background "Image/background/background2.5.png", true>>
+
+那原本如同死寂镜面的污水，中心处猛地向内塌陷，仿佛被一只无形的巨锤击中。
+
+<<background "Image/background/background_black.png", true>>
+
+但它没有溅起一丝水花，而是无声地撕裂了
+——不是水的形态，而是你眼前的空间本身。
+一道不规则的、边缘闪烁着不稳定幽光的裂缝，如同狰狞的伤疤，凭空出现。
+
+透过这道裂缝，你看到的并非桥下的景象——
+那是一片无法形容的、扭曲的虚无，而在那虚无之中，违背常理地、凭空生长着数只眼睛。
+
+<<SE "Music/464949__giddster__monster-wheezing-3.wav">>
+
+<<BGM "Music/636989__rorschakk__rorschakk-130bpm-dark-ambient-sci-fi-suspenseful-beat-loop.wav">>
+
+它们大小不一，形态各异。有的狭长如冰冷的裂隙，有的浑圆如布满血丝的月球。
+没有睫毛，没有眼皮，只有最纯粹的、作为“观察”这一功能而存在的眼球。
+它们无序地悬浮着，瞳孔深处是足以吞噬光线的绝对黑暗。
+
+<<background "Image/background/background_red.png", false>>
+
+你的气息，你生命的波动，如同投入死水中的石子。
+几乎在你感知到它们存在的同一瞬间，所有那些眼球——
+
+<<background "Image/background/background_red.png", true>>
+
+无论朝向何方——
+其瞳孔都以一种令人头皮发麻的机械精准度，骤然转向，将视线死死地锁定在你的身上。
+
+那不是好奇，不是疑惑，而是一种古老的、漠然的、如同看待标本般的凝视。
+一股源自生命本能的、最原始的恐惧瞬间攫住了你的心脏，让你浑身血液冻结，连尖叫都卡死在喉咙深处。
+然而，比这凝视更快的，是行动。
+
+就在你被这恐怖景象震慑得无法动弹的顷刻间，从那布满眼球的裂缝深处，一只“手”猛地探出！
+它并非由血肉构成，而是由更本质的、流动的阴影与纯粹的恶意编织而成。
+它修长、枯瘦，五指如钩，边缘在现实中不断模糊、蒸腾。
+它无视了空间的距离，快过你的思维，一把牢牢攥住了你的手腕！
+触感并非冰冷，而是一种彻骨的虚无，仿佛你的血肉正在被直接转化为“不存在”。
+一股完全无法抗衡的、蛮横到极致的力量从中传来。
+你的抵抗微不足道。
+你的体重形同虚设。
+
+<<background "Image/background/background_gray.png", true>>
+
+你只来得及感到一阵天旋地转的失衡，整个视野被那片布满眼球的扭曲虚空彻底填满。
+
+桥面、迷雾、乃至你自己的身体，都在被急速拉远、剥离。
+下一刻，你已被那股绝对的力量彻底拽离了现实，拖入了那道狰狞的空间裂缝之中。
+裂缝在你身后倏然闭合，没有留下丝毫痕迹……
+
+<<background "Image/background/background2.5.png", true>>
+
+桥上，只剩下那摊污水，依旧如黑曜石镜面般，死寂地躺在原地。
+
+<<background "Image/background/background2.5.png", false>>
+
+仿佛一切，都只是它映照出的、一个短暂而残酷的幻觉。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+<<stopBGM>>
+
+你被那诡异的黑手粗暴地拽离了桥梁，坠入一个充满恶意凝视的虚空。
+在经历了一番难以言喻的纠缠与挣扎后，你不知如何竟挣脱了出来，像是被空间排斥一般，重新摔回了坚实的桥面上。
+你喘息着，惊魂未定。
+
+<<noFrame>>
+
+<<BGM "Music/742885__xkeril__airy-pitched-background.wav">>
+
+手腕上仿佛还残留着被那只阴影之手攥紧的、虚无的触感。
+那些来自裂缝之后的、漠然的眼球凝视，在你脑海中留下了难以磨灭的印记。
+
+……你强撑着站起来，带着这份新的创伤与警惕，步履蹒跚地向前。
+
+<<jump Option_Two_3_>>
+===
+
+title: Option_Three
+tags: 
+position: 120,800
+colorID: 8
+---
+//选项三
+
+-> 无生命的东西罢了，虚张声势
+    <<jump Option_Three_1>>
+-> 它们有生命，它们在盯着我……
+		<<set $Perception -= 1>>
+		<<jump Option_Three_2>>
+-> 它们是我吗？
+    <<set $Perception += 1>>
+    <<jump Option_Three_3>>
+===
+
+title: Option_Three_1
+tags: 
+position: -120,1200
+colorID: 0
+---
+//困惑者
+
+//中立 
+
+//无生命的东西罢了，虚张声势
+
+<<BGM "Music/BGM/Shadows Whisper2.mp3">>
+
+……你的目光平静地扫过桥面两侧。
+
+<<background "Image/background/background3.0.png", false>>
+
+那些人偶，数量庞大，密密麻麻地端坐着，像一片寂静的墓碑。
+它们由某种暗淡的材质制成，脸上是模糊的、未被赋予个性的五官，眼神空洞地望向虚无。
+
+<<background "Image/background/background3.0.png", true>>
+
+然而，一股粘稠的、无声的“注视感”如同实质的蛛网，从四面八方缠绕而来，试图包裹你，渗透进你的皮肤。
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+你停下脚步，并非因为恐惧，而是为了审视。
+
+<<background "Image/background/background3.0.png", false>>
+
+就在那试图营造统一的、压迫性的凝视感触及你时，一段与此情此景高度相关的记忆，如同一个被调取的档案，冷静地浮现在你脑海中——
+
+<<noFrame>>
+
+<<background "Image/background/background3.0.png", true>>
+
+那是在初中严苛的开学日，你面向教室外排队的众同学。
+阳光刺眼，你抬头看到的所有人身高不一，发型差异也极小，所有人穿着一模一样的、毫无个性的校服。
+那一刻，一种幼稚的、关于“个体被集体吞没”的恐惧，曾短暂地攫住过你
+
+<<background "Image/background/background3.0.png", false>>
+
+……而现在，你看着眼前这片试图用“整齐划一”来制造恐惧的人偶阵列，只觉得……
+可笑。
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+你能清晰地感知到，它们内部没有任何生命的火花，没有意识的流动。
+它们只是“物体”，被精心摆放在这里，如同舞台布景。
+眼前这一幕，不过是将你年少时那点微不足道的焦虑，放大并实体化后的拙劣模仿。
+它试图用你过去的弱点来攻击你。
+
+<<noFrame>>
+
+<<background "Image/background/background3.0.png", true>>
+
+一丝几不可察的、带着轻蔑的冷笑在你心底掠过。
+虚张声势。
+
+这不过是这片空间试图在你心中播下恐惧种子的又一种方式，而且，用的是你早已克服了的旧剧本。
+
+<<background "Image/background/background3.0.png", false>>
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+你不再理会那如芒在背的错觉，重新抬步。
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+你的脚步声在死寂中清晰可闻，踏碎了那试图凝结起来的、源自过去的诡异氛围。
+
+<<background "Image/background/background3.0.png", true>>
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+你径直从这片人偶的阵列中穿过，目光笔直地望向前方的迷雾，仿佛两侧存在的只是一堆无意义的石块或朽木。
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+在你坚定的身影穿过之后，那如影随形的“注视感”如同被阳光刺破的晨雾，悄然消散了。
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+它们，连同这幕试图利用你过往弱点的恫吓剧，都被你远远抛在了身后。
+
+你的道路，依旧向前。
+
+<<jump Time_>>
+===
+
+title: Option_Three_2
+tags: 
+position: 120,1200
+colorID: 0
+---
+//不安者
+
+//负面 
+
+//它们有生命，它们在盯着我……
+
+<<background "Image/background/background3.0.png", false>>
+
+……
+空气骤然变得粘稠。
+
+<<SE "Music/384874__ali_6868__left-gravel-footstep-5.wav">>
+
+你的脚步不自觉地放慢，最终停滞在原地。
+那些密密麻麻端坐在桥两侧的人偶——
+它们绝不是无生命的物件。
+
+<<BGM "Music/BGM/Monotonous Pulse2.mp3">>
+
+虽然它们的脸庞没有具体的五官朝向，虽然它们的躯壳散发着死亡般的沉寂，但你无比确信：
+[b]它们在看着你。[/b]
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+不是用眼睛，而是用某种更本质的存在。
+
+<<background "Image/background/background3.0.png", true>>
+
+你能感觉到无数道无形的视线从四面八方穿透你的皮肤，冰冷、精准，像无数根细密的针。
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+它们空洞的脸庞此刻仿佛都转向了你，那些模糊的五官在阴影中扭曲，形成一张张沉默的、审判般的面具。
+
+<<noFrame>>
+
+就在这令人窒息的注视感将你包裹的瞬间，一段被遗忘的恐惧猛地撞进你的脑海——
+那是在初中严苛的开学日，你面向教室外排队的众同学。
+阳光刺眼，你抬头看到的所有人身高不一，发型差异也极小，所有人穿着一模一样的、毫无个性的校服。
+那一刻，一种莫名的、深沉的恐惧攫住了你：
+你无法分辨他们，而“你”也即将成为他们中的一个，一个没有面孔、没有名字的符号。
+
+<<background "Image/background/background3.0.png", true>>
+
+眼前的景象与记忆完美重叠、放大。这些人偶，正是那场恐惧的终极体现。
+寒意顺着你的脊椎向上攀爬。
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+这不是虚张声势。这是某种更深层、更令人不安的真相。
+这片空间不再是简单地复制你的恐惧，它开始赋予寂静以生命，让虚无长出注视的眼睛。
+你不敢再大步向前。
+
+<<background "Image/background/background3.0.png", false>>
+
+你的目光警惕地扫过两侧，试图找出它们意图的蛛丝马迹。
+但它们只是“看”着，一动不动，用绝对的静止散发出比任何攻击都更令人窒息的压迫感。
+
+<<noFrame>>
+
+[i]它们是谁？它们想做什么？[/i]
+
+这些问题在你脑海中尖啸，却没有答案。
+你只能感觉到自己像一个误入禁地的闯入者，每一步都暴露在无数沉默的目击者面前。
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+你深吸一口气，强迫自己移动发僵的双腿，每一步都走得无比谨慎，仿佛生怕惊扰了这场诡异的凝视。
+
+你强迫自己迈动双腿，一步，又一步。背后那无数道无声的、粘稠的注视，如同冰冷的蛛网黏在你的背上，直到你彻底走出那片区域，才仿佛被某种无形的界限切断。
+然而，你并没能“逃离”。
+
+<<noFrame>>
+
+就在你以为已经闯过一关，心神稍稍松懈的那一刹那——
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+[i]它来了[/i]
+
+不是来自外部的攻击
+而是从你身体最深处
+轰然爆发的叛乱
+
+<<noFrame>>
+
+首先失控的是呼吸。
+你的胸腔像是被突然抽成了真空，猛地一抽，随即开始不受控制地、剧烈地痉挛。
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+你张大嘴，却吸不进一丝空气，喉咙被一只无形的手死死扼住，只能发出[i]“嗬……嗬……”[/i]的、濒死般干涩的抽气声。
+
+<<SE "Music/612639__newlocknew__heart-beat-2strong-poundingblood-flows-in-the-veins6lrs.wav">>
+
+紧接着是心脏。
+它不再跳动，而是在你的肋骨后面疯狂地、无序地撞击，像一只被囚禁的鸟，绝望地想要撞碎牢笼。
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+每一次撞击都带着撕裂般的痛楚，让你眼前发黑，几乎要跪倒在地。
+你的四肢开始发冷，指尖和脚尖迅速失去知觉，仿佛有冰冷的铅水正顺着血管逆流而上，要将你冻结。
+与此相对的，是你的皮肤表面却渗出了一层细密的、冰冷的汗珠。
+
+<<noFrame>>
+
+你想呐喊
+想呼救
+但声带像是被彻底焊死，连一丝声音都挤不出来。
+你想稳住身体
+但双腿的肌肉背叛了你
+它们像煮过头的面条一样绵软
+支撑不住你身体的重量。
+
+你甚至无法思考“恐惧”。
+
+因为“恐惧”已经抛弃了作为一种情绪的存在形式，它直接物质化了，变成了你无法呼吸的空气，变成了你失控的心跳，变成了你冰冷僵硬的四肢。
+你不再是“一个正在恐惧的人”，你就是“恐惧”本身。
+
+<<SE "Music/723795__lorimortimer__abyss.wav">>
+
+[i]“咚”[/i]
+一声闷响
+
+<<background "Image/background/background_black.png", false>>
+
+你终于无法再支撑，膝盖重重地砸在冰冷的桥面上。
+
+<<background "Image/background/background_black.png", true>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+你用颤抖的、失去血色的双手死死抓住自己的喉咙，仿佛那样就能撕开一条供空气通过的缝隙。
+
+<<SE "Music/612639__newlocknew__heart-beat-2strong-poundingblood-flows-in-the-veins6lrs.wav">>
+
+<<background "Image/background/background_black.png", true>>
+
+视野急剧地收窄、变暗
+耳边只剩下自己那颗濒临爆炸的心脏发出的、震耳欲聋的轰鸣。
+
+在这纯粹的、由你自己的身体所施加的酷刑中，你清晰地意识到：
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+那些你看似已经抛在身后的恐惧与压力，从未真正离开。
+它们只是沉淀了下来，在此刻，用最直接、最野蛮的方式，从你的躯体内部，将你彻底吞噬。
+
+<<stopBGM>>
+
+过了许久，你的自我意识才再度回归。
+果然
+你还是无法接受场景，这种感觉。
+
+<<noFrame>>
+
+<<jump Time_>>
+===
+
+title: Option_Three_3
+tags: 
+position: 360,1200
+colorID: 0
+---
+//好奇者
+
+//正面 
+
+//它们是我吗？
+
+<<BGM "Music/BGM/Whisper of Shadows.mp3">>
+
+……它们在等待你的认领。
+你颤抖地、缓缓地抬起一只手，并非为了抗拒，而是如同一个归家的游子，轻轻抚上离你最近的那尊人偶的脸颊。
+
+<<figure "Image/player/doll.png", 200, 700, 1>>
+
+触感并非预想中的冰冷死物，而是一种温润的、与你自身血脉隐隐共鸣的质感。
+就在指尖接触的刹那——
+
+<<SE "Music/346396__devern__industrial-buzz-2.wav">>
+
+[i]嗡……[/i]
+
+<<noFigure>>
+
+<<background "Image/background/background_gray.png", true>>
+
+<<BGM "Music/BGM/Whisper of Shadows2.mp3">>
+
+一声低沉的、源自灵魂深处的共鸣在你体内响起。
+那尊人偶，连同其后望不到尽头的所有人偶，开始散发出柔和的白光。
+它们的形态开始变得模糊，如同投入静湖的盐雕，开始溶解。
+没有痛苦，没有挣扎。
+它们化作万千道温暖的光流，如同百川归海，无声地、浩荡地涌向你。
+
+一股庞大到足以撕裂任何容器的信息与情感洪流，瞬间冲入你的意识。
+那是你童年丢失第一颗乳牙时的茫然
+是你第一次站在人群中央发言时，手心沁出的冷汗
+是你在无数个深夜独自咀嚼的、微不足道的失落与狂喜……
+所有被你遗忘、忽略、遗弃的碎片，所有构成“你”这个存在的、最细微的瞬间，此刻尽数归来。
+你的身体成为了风暴的中心。
+
+<<background "Image/background/background_hunhe.png", true>>
+
+剧烈的共鸣让你的每一个细胞都在震颤、嘶鸣，又在洪流中被打碎、重组。
+你感到自己在无限地膨胀，意识被拉伸至每一个曾属于你的时空片段。
+你不再是“一个”你，你是你所有的过去，所有可能性的集合。
+当最后一道光流汇入你的身躯，桥面两侧已空无一物。
+
+<<background "Image/background/background2.5.png", true>>
+
+那令人窒息的“注视感”消失了，因为它已不再来自外部，而是完美地、圆融地，回归于你的内部。
+
+
+你依然跪在那里，但某种东西已经彻底改变。
+你慢慢地、稳稳地，重新站了起来。
+体内奔涌着前所未有的力量与……完整。
+
+那些曾经让你分裂、让你恐惧的源头，此刻都成了你力量的基石。
+你不再需要对抗“另一个自己”，因为你已容纳了万千个自己。
+你抬手，擦去脸上未干的泪痕，指尖触及的皮肤，仿佛也蕴含着无数个时空的温度。
+你望向迷雾深处，目光平静如水，却深邃如宇宙。
+你知道了自己是谁。
+你知道了脚下的桥是什么。
+你知道了，前方的路，该如何去走。
+
+[i]我，是亓官渡。[/i]
+
+你轻声说出的这个名字，此刻承载的重量，远超以往任何时刻。
+然后，你迈开脚步，向前走去。
+步履坚定，不再有丝毫迷茫。
+
+
+<<jump Time_>>
+===
+
+title: End_
+tags: 
+position: 1040,1680
+colorID: 7
+---
+//结局引入
+
+//前置剧情
+
+<<background "Image/background/background_black.png", true>>
+…
+……
+…………
+………………………………………………………………………………………
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+你拖着早已麻木的双腿，在无尽的桥上行走。
+鞋底早已被桥面渗出的冰冷浸透，每迈出一步，都带着黏腻的疲惫。
+
+<<background "Image/background/background_black.png", false>>
+
+就在你以为这片虚无将永恒持续时，前方终于有了变化。
+
+<<noFrame>>
+
+一个黑影，静静地立在视野的尽头。
+经历了太多无法言说的诡谲，你的情绪波动早已被消耗殆尽，只剩下一种近乎本能的麻木，推着这具沉重的身躯继续向前。
+那黑影纹丝不动，如同桥体本身投下的阴影。 没有低吼，没有侵袭的意图，这种死寂般的“无害”，反而让你紧绷的心弦略微一松。
+
+[i]是能交流的存在？[/i]
+
+你缓缓靠近，步伐谨慎。
+十步，五步，三步……
+距离在死寂中被一步步蚕食，那黑影始终保持着绝对的静止。
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+直到你完全站在对方面前，近得能看清每一处模糊的轮廓细节。
+也正在这一瞬，你的呼吸骤然停滞。
+
+<<frame "Image/player/player_stand", 1.5, 800, 200, 1.3, true>>
+
+那身影的弧度，那沉默的姿态，那无形中散发出的疲惫感……
+都像在凝视一面蒙尘却无比精准的镜子。
+尽管面目不清，但那种源于灵魂深处的、冰冷的共鸣，已经在你体内嘶吼着给出了答案。
+根本无需确认。
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+你垂下眼帘，一丝混杂着荒谬、苦涩与最终认命的叹息，无声地滑过你的心间。
+是的。
+你只能接受。
+这个在尽头等待着你的，不是怪物，不是救赎。
+
+<<noFrame>>
+
+正是另一个你自己…
+
+<<jump End_Judgment>>
+===
+
+title: Ego
+tags: 
+position: 1400,800
+colorID: 2
+---
+//自我
+
+<<background "Image/background/background_gray.png", false>>
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+与另一个自己的照面，并未激起任何合作的涟漪。
+我们像两座孤绝的山峰对望，沉默中只有绝对的审视。
+在对方眼中，我看到的并非援手，而是另一个需要解答的谜题——
+一个由我自身的恐惧与迷茫所投射出的、精巧的陷阱。
+合作？那意味着承认我个体的无能和这里的不可攻破。
+……
+
+<<noFrame>>
+
+<<figure "Image/Special scenario/ego.png", 0, 700, 5>>
+
+[b]而我，拒绝。[/b]
+
+<<background "Image/background/background_gray.png", true>>
+
+此地的存在的不合理与如何破局，我自会证明
+我断然转身，将那个等待回应的“自己”留在身后
+
+<<background "Image/background/background_black.png", true>>
+
+<<figure "Image/Special scenario/look_player.png", 180, 700, 5>>
+
+也把寻求外援的软弱可能性彻底斩断。
+整个世界只剩下我一人，以及我轰鸣的思绪。
+
+我开始在自己的思维迷宫中反复推敲，像一名偏执的考古学家，剖析着每一片记忆的碎片，每一个情绪的波动。
+我追溯这场“异常”的源头，那最初的心跳失序，那吞噬一切的寂静……
+我并非在忍受，而是在分析。
+我将这整个荒谬的空间，连同其中所有的“另一个我”，都视为一个需要被解码的症状。
+终于，在一个思绪清明的刹那，灵光如闪电劈开迷雾——
+这无尽的回廊，这不断遇见的所有，并非什么高维的试炼。
+它是我内心未曾愈合的伤口，在绝对寂静中被无限放大后，所投射出的巨大而精致的牢笼。
+
+它的存在，只有一个原因：
+[i]我允许了恐惧来定义我的现实。[/i]
+
+<<noFigure>>
+
+逻辑的链条在瞬间扣紧。
+
+<<background "Image/background/gray_broken.png", true>>
+
+破局之法，从未隐藏在任何“另一个我”身上，它一直沉睡在我自己的意志核心。
+没有惊天动地的巨响，我只是停下了寻找出路的脚步，静静地站立。
+然后，用一种不容置疑的、纯粹的内在声音，对自己，也对这个基于我而存在的空间宣告：
+
+[color=720000]此地，只是妄想。[/color]
+
+<<background "Image/background/gray_broken.png", false>>
+
+……
+
+
+眼前的一切如同被擦去的镜面水汽，悄然消散。
+
+耳边重新涌入了熟悉的世界：
+
+<<background "Image/background/zuoye.png", true>>
+
+远处模糊的车流声，窗外邻居隐约的谈话，电脑风扇低沉的嗡鸣。
+我正坐在自己的书桌前，屏幕的微光还亮着，手边的可可尚温。
+仿佛什么都没有发生。
+
+<<background "Image/background/zuoye.png", false>>
+
+没有融合，没有顿悟，没有成为万物的神祇。
+有的，只是一个疲惫的灵魂，刚刚打赢了一场发生在意识最深处的、无声的战争。
+我眨了眨干涩的眼睛，伸手拿起那杯微凉的可可，啜饮一口。
+苦涩与醇香在舌尖交织，如此平凡，却又如此真实。
+
+今夜很长
+但明天，依旧要上班。
+
+<<jump cover>>
+===
+
+title: Id
+tags: 
+position: 1400,480
+colorID: 2
+---
+//本我
+
+<<background "Image/background/background_red.png", false>>
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+<<BGM "Image/BGM/Whispered Echoes2.mp3">>
+
+……最终
+我站在了那个“另一个自己”面前。
+
+<<noFrame>>
+
+没有交流，没有审视，只有一种冰冷的、源于血脉深处的明悟：
+[i]这片虚无，这座回廊，只能有一个意识存在[/i]
+
+<<background "Image/background/background_red.png", true>>
+
+那不再是战斗，而是一场肃穆的献祭。
+
+[b]当我的手指扼上你的咽喉，触感是与我自己毫无二致的温度。[/b]
+
+<<figure "Image/Special scenario/Id_player.png", -180, 700, 5>>
+
+在你眼中，我没有看到恐惧，反而是一种近乎嘲弄的“[i]果然如此[/i]”。
+
+<<background "Image/background/background_red.png", false>>
+
+[b]直至你如烟尘般消散，一股前所未有的完整感，如电流般瞬间贯穿我的四肢百骸。[/b]
+[b]我这才惊觉，之前的“我”从来都不是完整的。[/b]
+每一个“另一个我”，都像一块活着的碎片，从我本源之上剥离。
+[b]而毁灭，竟是最高效的融合。[/b]
+
+一股原始而纯粹的冲动，取代了所有思考。
+我向着未知的深处迈步，不再是为了寻找出口，而是化身为猎手，追寻着下一个“猎物”。
+[i]不[/i]
+[i]不是猎物[/i]
+[i]是养料[/i]
+[i]是让我趋于“完美”的最后一块拼图[/i]
+
+我沉浸于这种无限的狩猎之中
+每一片新的迷雾背后，每一次邂逅，都只是一场注定的仪式前奏。
+[i]我熟悉你们每一个人的起手式，洞悉你们所有的思维轨迹，因为那本就是我自己的思维。抹除你们，就像抹除一段错误的代码，一个不需要存在的过去。[/i]
+
+不断重复下去
+扼杀
+吸收
+前行
+再扼杀
+再吸收
+再前行
+
+渐渐地，我的感知超越了这具躯壳，如蛛网般蔓延至整个空间。
+我能嗅到恐惧
+听到迷茫
+触摸到那些碎片在湮灭前发出的
+……唯有我能接收到的灵魂尖啸
+
+[i]我不再知道已经重复了多少次，也不在乎前方还有什么。[/i]
+这片空间本身，就是我的猎场
+而我，是这里唯一的主宰与清道夫。
+直到某一刻，我站在一片绝对的虚无里，再没有任何一个“他者”可供猎杀。
+一种圆满的寂静笼罩了我。
+我缓缓抬起手，凝视着掌心。
+那上面仿佛还残留着无数个“我”湮灭时的余温。
+
+于是，我明白了。
+我即是这空间的唯一原因，也是唯一答案。
+[i]我，即是一切的总和。[/i]
+[color=FF2200]在无尽的狩猎之后，我终于成为了……唯一的“我”[/color]
+
+<<noFigure>>
+
+<<jump cover>>
+===
+
+title: Superego
+tags: 
+position: 1400,1120
+colorID: 2
+---
+//超我
+
+<<background "Image/background/background_hunhe.png", false>>
+
+<<BGM "Music/BGM/Ethereal Ascent2.mp3">>
+
+起初，只是一个回响。
+我在虚无中遇见另一个“我”，无需言语，意念交汇的刹那便达成了永恒的共识。
+我们联手，步履踏出新的频率。
+而这前行本身，竟成了创造的仪式——
+每一步，都在召唤出又一个沉睡的“我”。
+一个，十个，百个……队伍如自我复制的星河，无止境地蔓延。
+我们不断重复着相遇与联合的奇迹，直至这行为本身取代了呼吸，淹没了时间。
+天地为何物？
+早已遗忘。
+前行的方向也失去了意义，因为四面八方，无穷无尽，皆是我浩浩荡荡的身影。
+就在这存在被自身彻底充满的、极度饱和的一瞬——
+[i]轰[/i]然一声，并非声响，而是所有界限的崩塌。
+
+<<background "Image/background/background_hunhe.png", true>>
+
+那由无数个“我”构成的浩瀚队伍，并非在向前行进，而是如同无限镜像的回廊，于刹那间向内坍缩。
+
+<<figure "Image/Special scenario/superego.png", -180, 700, 5>>
+
+个体的形态、独立的意志，曾如星辰般分明，此刻却像无数滴终于汇聚的水银，无法抗拒地融合为一。
+那层将“我”与“我”分隔的最后薄膜，“[i]啵[/i]”地一声，融解了。
+
+个体的形态与差异，那曾构筑整个世界的藩篱，如风化的沙塔般无声倾颓。
+不再有“我”与“他者”，不再有“此”与“彼”。
+恐惧、孤独、渴望……这些因“分别”而生的情愫，如朝露遇见初阳，悄然汽化。
+一种根本性的了悟，如纯粹的之光，照彻所有。
+我已不再是我
+所有的我都融解，混合，重组为一体，个体间不再具有差异
+[color=5f0000]万般皆是我，众生皆是我[/color]
+
+<<noFigure>>
+
+<<jump cover>>
+===
+
+title: End_Judgment
+tags: 
+position: 1040,800
+colorID: 8
+---
+//结局判断
+
+// 本我 / 自我 / 超我 / 循环
+
+…
+……
+……
+……
+
+//超我结局
+<<if $Perception == 8>>
+    <<jump Superego>>
+
+//本我结局
+<<elseif $Perception == 3>>
+    <<jump Id>>
+
+//自我结局
+<<elseif $Perception == 5>>
+    <<jump Ego>>
+
+//循环结局
+<<else>>
+    <<jump cycle>>
+
+<<endif>>
+<<background "Image/banner.jpg", false>>
+===
+
+title: Time_
+tags: 
+position: 120,1680
+colorID: 6
+---
+//时间感混乱
+
+<<stopBGM>>
+
+…
+…
+……
+………………
+……………………………………………………
+
+<<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
+
+<<background "Image/background/background2.0.png", true>>
+
+<<BGM "Music/BGM/Ethereal Ascent.mp3">>
+
+时间失去了它赖以测量的稳定流速。
+
+<<background "Image/background/background_black.png", true>>
+
+上一秒，你感觉自己在绝对的寂静中已经站立了数个世纪，久到灵魂都要被风干，一种亘古的疲惫感渗透进骨髓
+下一秒，这种漫长的感觉又猛地收缩，仿佛刚才的一切只是一次心跳的间隙，短暂得来不及完成一次完整的呼吸。
+
+<<noFrame>>
+
+<<background "Image/background/background2.0.png", true>>
+
+低头，看见桥面石栏上的苔藓在以肉眼可见的速度枯荣交替，仿佛在几十秒内走完了数年的生命周期
+而自己身体的饥饿感、口渴感，却像被冻结了一般，毫无变化。
+
+<<background "Image/background/background_black.png", true>>
+
+你无法判断自己在这里待了多久，也无法预测任何事情的“下一步”会在何时发生。
+赖以理解世界的线性时间，在这里彻底失效。
+
+<<stopBGM>>
+
+//正面
+<<if $Perception == 8>>
+    <<jump Time_Positive>>
+
+//负面
+<<elseif $Perception == 3>>
+    <<jump Time_Negative>>
+
+//中立
+<<else>>
+    <<jump Time_Neutral>>
+
+<<endif>>
+===
+
+title: Time_Negative
+tags: 
+position: 600,1440
+colorID: 0
+---
+//不安者
+
+//负面反应
+
+<<background "Image/background/background_red.png", false>>
+
+<<BGM "Music/BGM/Monotonous Pulse2.mp3">>
+
+这不是现象
+这是酷刑
+时间的混乱，是压垮理智的最后一根稻草。
+
+<<background "Image/background/background_red.png", true>>
+
+它剥夺了你对“进程”的最后一点控制感——
+连“等待尽头”都成了一种奢望
+因为尽头可能永远不会来
+也可能在你意识到之前就已错过。
+
+<<frame "Image/player/player_shocked", 1.5, -800, 200, 1.3, true>>
+
+强烈的焦虑与幽闭恐惧如同冰水灌顶。
+你感到自己正被抛入一个没有过去、没有未来的时间漩涡
+即将被永恒地“放逐”在此地。
+
+<<noFrame>>
+
+<<frame "Image/player/player_disgust", 1.5, -800, 200, 1.3, true>>
+
+每一次时间感知的剧烈跳跃，都像有一只无形的手在你心脏上狠狠攥紧又松开。
+你开始无法控制地胡思乱想：
+[i]现实世界是否存在已过去千年的可能性？[/i]
+[i]你的存在是否已被彻底抹去？[/i]
+
+<<noFrame>>
+
+<<SE "Music/333359__schottenrock__wheeze.flac">>
+
+你的呼吸变得急促了起来，徒劳地试图抓住什么稳定之物。
+喉咙被噎住，你只能无声的对着虚空嘶喊
+
+[i]过去多久了？！[/i]
+[i]到底过去多久了？！[/i]
+
+但你费尽心思从喉咙中挤出的微弱的声音，很快被死寂吞没。
+你不由自主地蜷缩起来，用指甲在桥面上刻下无意义的划痕，试图留下一个“时间曾经在此流逝”的脆弱证据，却绝望地发现划痕可能在下一秒就消失，或瞬间变得古老。
+
+<<jump End_>>
+===
+
+title: Time_Neutral
+tags: 
+position: 600,1680
+colorID: 0
+---
+//困惑者
+
+//中立反应
+
+<<background "Image/background/background_gray.png", false>>
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<BGM "Music/159537__setuniman__absurd-0q_27mi.wav">>
+
+这是一个极其关键的“[i]数据异常[/i]”。
+时间的混乱非但不是威胁，反而是揭示此地物理规则的最重要线索。
+最初的错愕迅速被一种研究者的专注所取代。
+恐惧被强烈的好奇心压制。
+
+<<background "Image/background/background_gray.png", true>>
+
+[i]这里的时间规则是什么？[/i]
+
+你的大脑飞速运转
+[i]是主观的，还是客观的？[/i]
+[i]是随机的，还是遵循某种我尚未发现的规律？[/i]
+[i]它如何影响我的身体衰老和新陈代谢？[/i]
+
+<<noFrame>>
+
+你立刻尝试了进行“实验”。
+不由得屏住呼吸，计数自己的心跳，试图建立一个内在的“生物钟”，并与外部环境的异常变化进行比对。
+在观察着苔藓的枯荣周期、雾气流动的速度的情况下，寻找任何可量化的模式。
+又不时尝试用不同的速度行走，测试这是否会影响自身对时间流逝的感知……
+
+<<jump End_>>
+===
+
+title: Time_Positive
+tags: 
+position: 600,1920
+colorID: 0
+---
+//好奇者
+
+//正面反应
+
+<<background "Image/background/background_hunhe.png", false>>
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<BGM "Music/636989__rorschakk__rorschakk-130bpm-dark-ambient-sci-fi-suspenseful-beat-loop.wav">>
+
+[i]这太奇妙了！[/i]
+这是挣脱物理束缚的终极自由，一场在时间维度上的冒险。
+
+你感受到的不是恐惧，而是一种近乎狂喜的兴奋。
+
+[i]爱因斯坦的相对论在此地成为了可以被亲身感知的现实！[/i]
+
+<<noFrame>>
+
+<<background "Image/background/background_hunhe.png", true>>
+
+你觉得自己像一个刚刚发现新玩具的孩子，时间的弹性让你着迷。
+你张开了双臂，主动迎接那种时间的拉伸与压缩。
+[i]来吧，让我看看你还能做到什么！[/i]
+
+在极度兴奋中，你享受那种“一步一年”的错觉，逐渐开始加速奔跑
+或者突然静止
+观察周围环境是否会因你的“停滞”而加速“播放”
+
+你会将这种混乱视为一种全新的艺术形式，一种超越凡人理解的“宇宙呼吸”。
+
+[i]这简直就是一个超大型的时间游乐场！[/i]
+
+<<jump End_>>
+===
+
+title: Begining
+tags: 
+position: 120,-1280
+colorID: 5
+---
+//开始剧情
+
+<<preload "Image/player/player_shocked">>
+
+然而，映入眼帘的，不是熟悉的街道，不是归家的路。
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+<<background "Image/background/background.png", false>>
+
+是纯粹的、无边无际的黑暗，以及脚下这条向前后无限延伸的、孤零零的桥。
+空气是凝滞的，带着一股河底淤泥般的、阴冷的潮气。
+
+没有来由，没有记忆。
+上一秒的意识还是一片空白，下一秒，你就已经站在了这里。
+这种认知上的断档，比眼前的陌生景象更让你心底泛起一丝寒意。
+
+你就像一枚被无意间放置于此的棋子，连自己为何在此都无从知晓。
+
+<<noFrame>>
+
+<<jump Option_One>>
+===
+
+title: Fine
+tags: 
+position: 1040,-1280
+colorID: 5
+---
+//循环的开始
+
+<<background "Image/background/background_black.png", true>>
+
+<<BGM "Music/593688__szegvari__dark-thriller-atmo-amb.wav">>
+
+所有的选择，所有的挣扎，所有的恐惧与明悟……
+都像是被一只无形的手从意识的记录中轻轻擦去。
+
+没有成功的喜悦，没有失败的苦涩。甚至没有“结束”这个概念。
+
+只是……
+
+<<background "Image/background/background_black.png", false>>
+
+<<frame "Image/player/player_blink", 1.5, -800, 200, 1.3, true>>
+
+你眨了眨眼。
+
+仿佛只是走在路上，因为一个闪神而停下了脚步，在漫长的、空白的时间之后，刚刚拽回思绪。
+
+<<noFrame>>
+
+<<jump Begining>>
+===
+
+title: cycle
+tags: 
+position: 1040,-200
+colorID: 5
+---
+//循环结局
+
+<<BGM "Music/BGM/Whispered Echoes.mp3">>
+
+那个念头落下时，周遭的寂静仿佛有了重量。
+
+<<background "Image/background/background2.0.png", true>>
+
+你们面对面站立，如同站在时间的裂谷两端。
+空气不再流动，迷雾悬停在半空，连桥下那粘稠的黑暗也仿佛停止了蠕动。
+
+<<background "Image/background/background_black.png", true>>
+
+你尝试开口，声带却只发出干涩的气音。
+对方也一样。
+
+沟通的尝试在绝对的、自我复制的沉默中溃散。
+
+于是你尝试动作。
+一个抬手，一个迈步。
+对面的影子与你同步，如同镜中人，分毫不差。
+合作成了空谈——
+你们是同一套指令下的两个终端。
+
+愤怒吗？
+有过。
+
+在那人偶阵列前未能爆发的破坏欲，此刻却对着这面“镜子”熊熊燃起。
+你扑上去，手指触及的却不是实体，而是一团冰冷的、与你自身别无二致的虚无。
+扼住对方喉咙的手，感受到的是自己颈动脉的搏动。
+
+
+伤害她，如同伤害一面水中的倒影
+波纹荡开后，徒留更深的无力与自我厌弃。
+
+你后退，跌坐在冰冷的桥面上。
+她也坐下。
+
+<<figure "Image/Special scenario/cycle.png", 0, 700, 5>>
+
+时间开始扭曲。
+
+<<background "Image/background/background_gray.png", true>>
+
+你不知枯坐了多久，也许一瞬，也许永恒。
+
+<<background "Image/background/background2.5.png", true>>
+
+你想起污水里的坠落
+
+<<background "Image/background/background3.0.png", true>>
+
+想起人偶无声的注视
+
+<<background "Image/background/background_black.png", true>>
+
+想起那些闪回的、关于校服和队列的冰冷记忆。
+所有这些碎片，似乎都指向同一个核心——你。
+
+而眼前这个“另一个自己”，就是这核心最赤裸的呈现。
+
+你闭上眼，试图用“理性”去拆解：
+
+如果这是我的投射，如果我否认她的真实性，如果我……
+
+<<noFigure>>
+
+<<background "Image/background/background_gray.png", true>>
+
+但“如果”的念头刚一升起，就变得苍白。
+否认她，就是否认此刻正坐在这里、经历着这一切的“我”本身。
+你可以否认桥，否认黑暗，否认这片空间的一切造物，但你无法否认这个与你共享同一份疲惫、同一份记忆、同一份存在恐惧的镜像。
+
+<<background "Image/background/background_black.png", true>>
+
+你想起曾感受过的“合一”召唤，那种与万物融合的庞大宁静。
+你看向她，试图从这唯一的“同类”身上找到那种连接的入口。
+
+<<figure "Image/player/hand/hand_l.png", 0, 700, 6>>
+
+你伸出手
+
+<<figure "Image/player/hand/hand_d.png", 0, 700, 6>>
+
+她也伸出手
+
+<<figure "Image/player/hand/hand_d2.png", 0, 700, 6>>
+
+指尖相触的刹那，没有光流奔涌，没有记忆归位。
+
+只有一种冰冷的、彻底的确认：
+是的，我们一模一样。
+但也仅此而已。
+
+<<noFigure>>
+
+<<background "Image/background/background_gray.png", true>>
+
+没有升华，没有顿悟，没有超越。
+
+你们是两枚紧贴的硬币，同一面朝上，永远无法拼合成一个完整的立体。
+
+<<figure "Image/Special scenario/cycle.png", 0, 700, 5>>
+
+<<background "Image/background/background_black.png", true>>
+
+所有可能的路径——
+对抗、理解、融合——都在这个绝对的、自我指涉的闭环前撞得粉碎。
+
+你走不出本我的杀戮，走不出破局的洞察，也走不出合一的消融。
+
+你只是……被困住了。
+
+困在这座桥上，困在这个镜像前，困在名为“亓官渡”的无解方程里。
+
+疲惫终于超越了所有情绪，成了唯一真实的感受。
+
+<<noFigure>>
+
+它从骨髓深处渗出，稀释了意识，抹去了思考的边界。
+视线开始模糊，对面的影子渐渐融化在深沉的黑暗里。
+
+你感到自己在变轻，在下沉，在消散……
+
+<<jump Fine>>
+===
+
+title: Option_One_1_
+tags: 
+position: -120,-400
+colorID: 0
+---
+//不安者
+
+//视见污水
+
+<<background "Image/background/background2.5.png", true>>
+
+就在你几乎要再次被疲惫与绝望淹没时……
+迷雾略微稀薄，
+
+<<background "Image/background/background2.5.png", false>>
+
+<<SE "Music/429018__iut_paris8__warembourg_sabrina_2017_2018_rainshower.wav">>
+
+前方桥面上，一摊与周遭灰败格格不入的、明显的污水，突兀地映入眼帘。
+它静卧在那里，漆黑、粘稠，像一道愈合不了的伤疤，更像一个无声的挑衅。
+经历了刚才彻底的崩溃，你对这种“异常”之物几乎产生了一种麻木。
+
+<<background "Image/background/background2.5.png", true>>
+
+内心残存的不安让你想要远离，但理性，或者说，是走投无路后的唯一选择，却在告诉你：
+……无视它，或许意味着错过某些关键。
+你停在原地，目光锁定在那片不祥的漆黑上，疲惫的大脑缓慢地转动着……
+
+<<jump Option_Two>>
+===
+
+title: Option_One_2_
+tags: 
+position: 120,-400
+colorID: 0
+---
+//困惑者
+
+//视见污水
+
+<<background "Image/background/background2.5.png", false>>
+
+<<stopBGM>>
+
+很快，你的视线被桥面上一摊极不协调的污水所吸引。
+它太黑了，太完整了，像是被谁刻意泼洒在那里，与整个环境的“自然”感格格不入。
+
+[i]又一个‘互动点’么？[/i]
+
+你心想。
+在清醒梦或类似情境中，这种过于显眼的“异常”通常是关键的触发机关，或是通往深层意识的象征。
+你走近它，带着一种研究者的审慎。
+回避它或许安全，但也可能永远困于表层。
+是将其视为一个需要绕过的陷阱，还是一个值得探究的线索？
+
+<<background "Image/background/background2.5.png", true>>
+
+<<jump Option_Two>>
+===
+
+title: Option_One_3_
+tags: 
+position: 360,-400
+colorID: 0
+---
+//好奇者
+
+//视见污水
+
+<<background "Image/background/background2.5.png", false>>
+
+<<stopBGM>>
+
+——也正因此，当前方桥面上那摊极其显眼的污水出现时，你几乎是立刻就将它识别为一个重要的“节点”。
+它漆黑如墨，粘稠如油，静静地躺在那里，散发着与周围死寂环境截然不同的、一种近乎“活跃”的不祥气息。
+这绝非普通的污渍。
+它像是一个入口，一个信号，或者说，一个考验。
+是那个引路的存在留下的新标记？
+还是这片空间本身对你好奇心的又一次回应？
+
+<<background "Image/background/background2.5.png", true>>
+
+<<jump Option_Two>>
+===
+
+title: Option_Two_1_
+tags: 
+position: -120,520
+colorID: 0
+---
+//困惑者
+
+//视见人偶阵
+
+<<background "Image/background/background3.0.png", true>>
+
+<<BGM "Music/159537__setuniman__absurd-0q_27mi.wav">>
+
+前方的迷雾再次变得浓重，但这一次，当你穿过它时，眼前的景象骤然一变。
+
+<<background "Image/background/background3.0.png", false>>
+
+单调重复的桥面消失了，取而代之的，是桥面两侧密密麻麻、无声静坐的无数人偶。
+它们如同沉默的仪仗队，一直延伸到迷雾深处。
+你停下脚步，目光扫过这片诡异的阵列。
+它们没有生命，没有明确的视线，但你清晰地感觉到，无数道无形的“注视”正从四面八方汇聚到你身上。
+
+<<background "Image/background/background3.0.png", true>>
+
+<<stopBGM>>
+
+[b]此刻，面对这片人偶，你心中涌起的念头是？[/b]
+<<jump Option_Three>>
+===
+
+title: Option_Two_2_
+tags: 
+position: 120,520
+colorID: 0
+---
+//不安者
+
+//视见人偶阵
+
+<<BGM "Music/BGM/Shadows Whisper2.mp3">>
+
+没走多远，迷雾散开,一片令人头皮发麻的景象展现在眼前
+
+<<background "Image/background/background3.0.png", true>>
+
+——桥的两侧，坐满了无边无际的人偶。
+
+<<background "Image/background/background3.0.png", false>>
+
+它们的沉默，与你刚才经历的绝对寂静产生了可怕的共鸣。
+那些空洞的脸庞，此刻在你眼中，仿佛都倒映着那片污水的漆黑。
+
+<<background "Image/background/background3.0.png", true>>
+
+一种莫名的直觉告诉你，这些存在，与你刚刚逃离的深渊，有着某种联系。
+
+<<stopBGM>>
+
+[b]此刻，面对这片人偶，你心中最强烈的感受是？[/b]
+<<jump Option_Three>>
+===
+
+title: Option_Two_3_
+tags: 
+position: 360,520
+colorID: 0
+---
+//好奇者
+
+//视见人偶阵
+
+<<BGM "Music/BGM/Shadows Whisper2.mp3">>
+
+很快，你穿过了又一片迷雾，然后猛地僵住。
+
+<<background "Image/background/background3.0.png", true>>
+
+人偶。
+
+<<background "Image/background/background3.0.png", false>>
+
+数不清的人偶
+静坐在桥的两侧。
+
+它们的“注视感”扑面而来，与裂缝中那些眼球的凝视，在性质上截然不同，却在强度上不相上下。
+
+<<background "Image/background/background3.0.png", true>>
+
+一种混合着惊惧与愤怒的情绪在你心中炸开——
+这片空间，难道就只有这些无穷无尽的、令人不安的“注视”吗？
+
+<<stopBGM>>
+
+[b]此刻，被两种“凝视”折磨过的你，对眼前这片人偶的看法是？[/b]
+<<jump Option_Three>>
+===
+
+title: cover
+tags: 
+position: 1760,800
+colorID: 1
+---
+//鸣谢
+
+<<BGM "Image/BGM/Whispered Echoes2.mp3">>
+
+<<background "Image/banner.jpg", false>>
+
+[i]感谢游玩[/i]
+[i]渡我Metanoia[/i]         By 祸不单行我单行 —— [b]时霄难衡[/b]
+
+
+心跳音效来源：Heart beat 2.Strong pounding.Blood Flows In The veins(6lrs).wav by newlocknew -- https://freesound.org/s/612639/ -- License: Attribution NonCommercial 4.0
+
+喘息声来源：wheeze.flac by schottenrock -- https://freesound.org/s/333359/ -- License: Attribution 3.0
+
+怪物喘息声来源：Monster wheezing 3 by giddster -- https://freesound.org/s/464949/ -- License: Attribution 4.0
+
+流水声来源：WAREMBOURG_Sabrina_2017_2018_rainshower.wav by iut_Paris8 -- https://freesound.org/s/429018/ -- License: Creative Commons 0
+
+回响声来源：Abyss by lori.mortimer -- https://freesound.org/s/723795/ -- License: Creative Commons 0
+
+脚步声来源：Left Gravel Footstep 5 by Ali_6868 -- https://freesound.org/s/384874/ -- License: Creative Commons 0
+
+嗡声来源：Industrial Buzz 2.wav by DeVern -- https://freesound.org/s/346396/ -- License: Creative Commons 0
+
+背景音乐来源：Dark Thriller Atmo Amb.wav by szegvari -- https://freesound.org/s/593688/ -- License: Creative Commons 0
+Airy pitched background by xkeril -- https://freesound.org/s/742885/ -- License: Creative Commons 0
+Rorschakk - 130bpm dark ambient sci-fi suspenseful beat loop.wav by Rorschakk -- https://freesound.org/s/636989/ -- License: Attribution 4.0
+frotti.wav by rap2h -- https://freesound.org/s/151331/ -- License: Attribution 4.0
+absurd 0Q_27mi by Setuniman -- https://freesound.org/s/159537/ -- License: Attribution NonCommercial 4.0
+
+其余音乐来源：Suno ai 4.5
+
+除音乐音效外，一切制作均由 [b]时霄难衡[/b] 一人着手
+
+感谢游玩[i]渡我Metanoia[/i]，这是一份不完整的作品，鄙人第一回solo，画风割裂纯属不同画风上的不熟练问题，感谢您的完整游玩
+如有任何问题，请前往 鄙人的QQ: [b]61022228[/b] 反馈，非常感谢，有缘再见。
+===
