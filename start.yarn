@@ -475,9 +475,9 @@ colorID: 8
 [b]此刻，你脑中的想法是？[/b]
 
 -> 强烈的不安
-    <<set $Perception -= 1>>
-    <<background "Image/background/background_black.png", false>>
-    <<jump Option_One_1>>
+		<<set $Perception -= 1>>
+		<<background "Image/background/background_black.png", false>>
+		<<jump Option_One_1>>
 -> 是不是睡迷糊了？
 		<<background "Image/background/background_black.png", false>>
 		<<jump Option_One_2>>
@@ -1246,7 +1246,7 @@ colorID: 2
 
 <<frame "Image/player/player_exhausted", 1.5, -800, 200, 1.3, true>>
 
-<<BGM "Image/BGM/Whispered Echoes2.mp3">>
+<<BGM "Music/BGM/Whispered Echoes2.mp3">>
 
 ……最终
 我站在了那个“另一个自己”面前。
@@ -1381,7 +1381,7 @@ colorID: 8
     <<jump Superego>>
 
 //本我结局
-<<elseif $Perception == 3>>
+<<elseif $Perception == 2>>
     <<jump Id>>
 
 //自我结局
@@ -1443,7 +1443,7 @@ colorID: 6
     <<jump Time_Positive>>
 
 //负面
-<<elseif $Perception == 3>>
+<<elseif $Perception == 2>>
     <<jump Time_Negative>>
 
 //中立
@@ -1969,7 +1969,7 @@ colorID: 1
 ---
 //鸣谢
 
-<<BGM "Image/BGM/Whispered Echoes2.mp3">>
+<<BGM "Music/BGM/Whispered Echoes2.mp3">>
 
 <<background "Image/banner.jpg", false>>
 
